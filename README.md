@@ -33,7 +33,7 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - There are 165401 rows in the dataset.
   - There are 8 columns in the dataset.
   -  The questions that can be answered with this dataset are: 
-   + How many people are infected each day?
+      + How many people are infected each day?
 ### data set 2: Food Consumption
   From kaggle.com, a data science community with large open source data files.
 Dataset is a combination of multiple collections of data from the Food and Agriculture Organization of the United Nations, Population Reference Bureau, Johns Hopkins Center for Systems Science and Engineering, and USDA Center for Nutrition Policy and Promotion. The data is collected with the intent to “protect our families and our own health by adapting to a healthy diet.”
