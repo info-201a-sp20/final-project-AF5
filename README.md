@@ -1,7 +1,7 @@
 # Final Project
 Use this `REAMDE.md` file to describe your final project (as detailed on Canvas).
 ## Domain of Interest
-  ### corona virus
+  # corona virus
   because we are we are currently living this pandemic, we are wondering how it affect the communities
   
   ### What other examples of data driven project have you found related to this domain (share at least 3) (idk what to write for this one)
