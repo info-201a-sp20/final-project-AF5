@@ -19,10 +19,10 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - How people are getting food what they are eating?
   - How people spend their time during quarantine, compared to how they spent it before quarantine?
   - How much time do people spen on screen?
-  - What kind of food people are likely to eat in this pandemic?
+  - **What kind of food people are likely to eat in this pandemic?**
   - Are poeple exerciseing as much as they have been?
-  - How are people healths?
-  - How are are people and their lifestyle being affect in these time?
+  - **How are people healths?**
+  - **How are are people and their lifestyle being affect in these time?**
 ## Question of Interest
   - 
 
