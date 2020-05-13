@@ -20,3 +20,11 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - How are people healths?
   - How are are people and their lifestyle being affect in these time?
 ## Question of Interest
+
+
+## Finding Data
+  - From kaggle.com, a data science community with large open source data files.
+  - Data was collected by John Hopkins University Center for Systems Science and Engineering. The data is inspired by the recent COVID-19 outbreak, and the data is collected with the intent to compare coronavirus spread for different countries with different policies for social isolation, closing schools, stopping international travels.
+  - There are 165401 rows in the dataset.
+  - There are 8 columns in the dataset.
+  -  The questions that can be answered with this dataset are:
