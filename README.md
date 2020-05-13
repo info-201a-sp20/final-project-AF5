@@ -4,10 +4,12 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   # corona virus
   Because we are we are currently living this pandemic, we are wondering how it affects different communities across the country (lifestyle, habits, jobs).
   
-  ### What other examples of data driven project have you found related to this domain (share at least 3) (idk what to write for this one)
+  ### What other examples of data driven project have you found related to this domain (share at least 3) 
   - How many confirm cases/deaths each country/state has reported?
   - How are countries responding to the pandemic?
-  - 
+  - What changes in lifestyle that people made due to covid 19?
+    (https://www.statista.com/statistics/1105960/changes-to-the-general-lifestyle-due-to-covid-19-in-selected-countries/)
+      - 
   ### What data-driven questions do you hope to answer about this domain (share at least 3)?
   - How often do people go to public places?
   - How often do people exercise?
@@ -22,7 +24,7 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - How are people healths?
   - How are are people and their lifestyle being affect in these time?
 ## Question of Interest
-
+  - 
 
 ## Finding Data
   - From kaggle.com, a data science community with large open source data files.
@@ -30,3 +32,21 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - There are 165401 rows in the dataset.
   - There are 8 columns in the dataset.
   -  The questions that can be answered with this dataset are:
+
+  - https://www.kaggle.com/gustavomodelli/covid-community-measures
+  - This data was found on Kaggle.com which is a community with various datasets.
+  - This dataset was collected by John Hopkins University Center for Systems Science and Engineering. The aim of this data is to evaluate and analyze the changes in community activities as well as its relation to reduced confirmed cases of COVID-19.
+  - There are 817 rows in this dataset for multiple countries.
+  - There are 11 columns in this dataset. 
+  - ISO: Code for representation of country names.
+  - Country: Names of countries
+  - Date: Date of the data were collected 
+  - Retail & recreation: Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.
+  - Grocery & pharmacy: Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.
+  - Parks: Mobility trends for places like national parks, public beaches, marinas, dog parks, plazas, and public gardens.
+  - Transit stations: Mobility trends for places like public transport hubs such as subway, bus, and train stations.
+  - Workplaces: Mobility trends for places of work.
+  - Residential: Mobility trends for places of residence.
+  - Total cases: Total number of confirmed cases on each day.
+  - Fatalities: Total number of fatalities due to COVID-19 on each day.
+
