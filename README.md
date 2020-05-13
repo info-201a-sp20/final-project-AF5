@@ -11,18 +11,18 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
     (https://www.statista.com/statistics/1105960/changes-to-the-general-lifestyle-due-to-covid-19-in-selected-countries/)
       - 
   ### What data-driven questions do you hope to answer about this domain (share at least 3)?
-  - How often do people go to public places?
+  - **How often do people go to public places?**
   - How often do people exercise?
   - Most common type of exercise during quarantine?
-  - How many people are infected each day?
+  - **How many people are infected each day?**
   - What are some effective common practices of good hygiene people do?
   - How people are getting food what they are eating?
   - How people spend their time during quarantine, compared to how they spent it before quarantine?
-  - How much time do people spen on screen?
+  - How much time do people spend on screen?
   - What kind of food people are likely to eat in this pandemic?
   - Are poeple exerciseing as much as they have been?
-  - How are people healths?
-  - How are are people and their lifestyle being affect in these time?
+  - **How are people healths?**
+  - **How are are people and their lifestyle being affect in these time?**
 ## Question of Interest
   - 
 
