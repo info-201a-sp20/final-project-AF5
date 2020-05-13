@@ -11,29 +11,36 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
     (https://www.statista.com/statistics/1105960/changes-to-the-general-lifestyle-due-to-covid-19-in-selected-countries/)
       - 
   ### What data-driven questions do you hope to answer about this domain (share at least 3)?
-  - **How often do people go to public places?**
+  - How often do people go to public places?
   - How often do people exercise?
   - Most common type of exercise during quarantine?
-  - **How many people are infected each day?**
+  - How many people are infected each day?
   - What are some effective common practices of good hygiene people do?
   - How people are getting food what they are eating?
   - How people spend their time during quarantine, compared to how they spent it before quarantine?
-  - How much time do people spend on screen?
+  - How much time do people spen on screen?
   - What kind of food people are likely to eat in this pandemic?
   - Are poeple exerciseing as much as they have been?
-  - **How are people healths?**
-  - **How are are people and their lifestyle being affect in these time?**
+  - How are people healths?
+  - How are are people and their lifestyle being affect in these time?
 ## Question of Interest
   - 
 
 ## Finding Data
-### compare coronavirus spread
+### data set 1: Compare coronavirus spread
   - From kaggle.com, a data science community with large open source data files.
   - Data was collected by John Hopkins University Center for Systems Science and Engineering. The data is inspired by the recent COVID-19 outbreak, and the data is collected with the intent to compare coronavirus spread for different countries with different policies for social isolation, closing schools, stopping international travels.
   - There are 165401 rows in the dataset.
   - There are 8 columns in the dataset.
-  -  The questions that can be answered with this dataset are:
-### covid-community-measures
+  -  The questions that can be answered with this dataset are: 
+    - How many people are infected each day?
+### data set 2: Food Consumption
+  From kaggle.com, a data science community with large open source data files.
+Dataset is a combination of multiple collections of data from the Food and Agriculture Organization of the United Nations, Population Reference Bureau, Johns Hopkins Center for Systems Science and Engineering, and USDA Center for Nutrition Policy and Promotion. The data is collected with the intent to “protect our families and our own health by adapting to a healthy diet.”
+There are 171 different rows (one for each country).
+There are 32 different columns.
+
+### data set 3: Community mobility
   - https://www.kaggle.com/gustavomodelli/covid-community-measures
   - This data was found on Kaggle.com which is a community with various datasets.
   - This dataset was collected by John Hopkins University Center for Systems Science and Engineering. The aim of this data is to evaluate and analyze the changes in community activities as well as its relation to reduced confirmed cases of COVID-19.
