@@ -27,12 +27,13 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - 
 
 ## Finding Data
+### compare coronavirus spread
   - From kaggle.com, a data science community with large open source data files.
   - Data was collected by John Hopkins University Center for Systems Science and Engineering. The data is inspired by the recent COVID-19 outbreak, and the data is collected with the intent to compare coronavirus spread for different countries with different policies for social isolation, closing schools, stopping international travels.
   - There are 165401 rows in the dataset.
   - There are 8 columns in the dataset.
   -  The questions that can be answered with this dataset are:
-
+### covid-community-measures
   - https://www.kaggle.com/gustavomodelli/covid-community-measures
   - This data was found on Kaggle.com which is a community with various datasets.
   - This dataset was collected by John Hopkins University Center for Systems Science and Engineering. The aim of this data is to evaluate and analyze the changes in community activities as well as its relation to reduced confirmed cases of COVID-19.
