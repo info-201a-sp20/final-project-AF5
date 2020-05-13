@@ -12,5 +12,5 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - Food
   - Exercise 
   - Health
-
+  how are are people and their lifestyle being affect in these time?
 ## Question of Interest
