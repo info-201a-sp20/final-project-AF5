@@ -11,8 +11,8 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
     (https://www.statista.com/statistics/1105960/changes-to-the-general-lifestyle-due-to-covid-19-in-selected-countries/)
       - 
   ### What data-driven questions do you hope to answer about this domain (share at least 3)?
-  - How often do people go to public places?
-  - How often do people exercise?
+  - **How often do people go to public places?**
+  - **How often do people exercise?**
   - Most common type of exercise during quarantine?
   - How many people are infected each day?
   - What are some effective common practices of good hygiene people do?
