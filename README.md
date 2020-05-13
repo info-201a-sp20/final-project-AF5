@@ -5,7 +5,9 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   Because we are we are currently living this pandemic, we are wondering how it affects different communities across the country (lifestyle, habits, jobs).
   
   ### What other examples of data driven project have you found related to this domain (share at least 3) (idk what to write for this one)
-  
+  - How many confirm cases/deaths each country/state has reported?
+  - How are countries responding to the pandemic?
+  - 
   ### What data-driven questions do you hope to answer about this domain (share at least 3)?
   - How often do people go to public places?
   - How often do people exercise?
