@@ -35,10 +35,14 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   -  The questions that can be answered with this dataset are: 
       + How many people are infected each day?
 ### data set 2: Food Consumption
-  From kaggle.com, a data science community with large open source data files.
+  - From kaggle.com, a data science community with large open source data files.
 Dataset is a combination of multiple collections of data from the Food and Agriculture Organization of the United Nations, Population Reference Bureau, Johns Hopkins Center for Systems Science and Engineering, and USDA Center for Nutrition Policy and Promotion. The data is collected with the intent to “protect our families and our own health by adapting to a healthy diet.”
-There are 171 different rows (one for each country).
-There are 32 different columns.
+  - There are 171 different rows (one for each country).
+  - There are 32 different columns.
+  - Questions that this dataset helps answer are:
+    + What do the diets look like of those in quarantine?
+    + What are some effective common practices of good hygiene people do?
+
 
 ### data set 3: Community mobility
   - https://www.kaggle.com/gustavomodelli/covid-community-measures
