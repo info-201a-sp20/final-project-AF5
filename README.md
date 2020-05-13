@@ -23,8 +23,6 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
   - Are poeple exerciseing as much as they have been?
   - **How are people healths?**
   - **How are are people and their lifestyle being affect in these time?**
-## Question of Interest
-  - 
 
 ## Finding Data
 ### data set 1: Compare coronavirus spread
