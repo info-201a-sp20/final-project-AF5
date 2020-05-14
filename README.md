@@ -1,4 +1,3 @@
-# Final Project
 ## Domain of Interest
   ### Corona virus (COVID-19)
   We are we are currently living this pandemic and governments recommend or require citizens to stay isolated. We are wondering how it _affects different communities_ across the country (lifestyle, habits, jobs).
@@ -58,4 +57,4 @@ Dataset is a combination of multiple collections of data from the Food and Agric
     - Fatalities: Total number of fatalities due to COVID-19 on each day.
   - Questions that this dataset helps answer are:
   > - How is the quarantine life changing the lifestyle of the citizens in different countries?
-    - How effective is the stay-home order in terms of the spread and the fatalities of COVID-19?
+  > - How effective is the stay-home order in terms of the spread and the fatalities of COVID-19?
