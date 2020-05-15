@@ -56,5 +56,5 @@ Dataset is a combination of multiple collections of data from the Food and Agric
     - Total cases: Total number of confirmed cases on each day.
     - Fatalities: Total number of fatalities due to COVID-19 on each day.
   - Questions that this dataset helps answer are:
-  > - How is the quarantine life changing the lifestyle of the citizens in different countries?
-  > - How effective is the stay-home order in terms of the spread and the fatalities of COVID-19?
+    > - How is the quarantine life changing the lifestyle of the citizens in different countries?
+    > - How effective is the stay-home order in terms of the spread and the fatalities of COVID-19?
