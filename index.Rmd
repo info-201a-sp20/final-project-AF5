@@ -1,6 +1,6 @@
 ---
 title: "Midpoint Deliverable"
-author: "John Boyle"
+author: "John Boyle, Nhat Trang, Joseph Oh, Jason Tsai"
 date: "5/21/2020"
 output: html_document
 ---
@@ -15,7 +15,10 @@ Our domain of interest is the recent outbreak of coronavirus. With this dataset,
 
 ## Quick Data
 
-The country most impacted by the pandemic is `r most_cases_country[1]` with `r most_cases_country[2]` cases. In `r most_cases_country[1]`, the workplace on average decreased `r most_cases_country[3]` percent each consecutive day in this period.
+The country that had the most cases during this timeframe was **`r most_cases_country[1]`** with **`r most_cases_country[2]`** cases. In **`r most_cases_country[1]`**, the frequency of park visitors on average changed **`r most_cases_country$park_avg`** percent each consecutive day in this period. The country least impacted by the pandemic in this timeframe is **`r least_cases_country[1]`**, with **`r least_cases_country[2]`** cases. In **`r least_cases_country[1]`**, the frequency of park visitors on average changed **`r least_cases_country$park_avg`** percent each consecutive day in this period. 
+
+The country that had the most death during this timeframe was **`r most_death_country[1]`** with **`r most_death_country[2]`** casualities. In **`r most_death_country[1]`**, the frequency of park visitors on average changed **`r most_death_country$park_avg`** percent each consecutive day in this period. The country with the least amount of COVID-19 related deaths this timeframe is **`r least_death_country[1]`**, with **`r least_death_country[2]`** cases. In **`r least_death_country[1]`**, the frequency of park visitors on average changed **`r least_death_country$park_avg`** percent each consecutive day in this period.
+
 
 
 
