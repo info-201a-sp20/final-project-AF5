@@ -8,7 +8,6 @@ output: html_document
 ```{r setup, include=FALSE}
 source("scripts/sumInfo.R")
 source("scripts/sumTable.R")
-data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 ```
 
 ## COVID-19 Data Analysis
@@ -23,9 +22,9 @@ The country that had the most death during this timeframe was **`r most_death_co
 
 ## Plot of cases by country:
 
-```{r setup, include = TRUE}
-summary(data)
-```
+`r summary(data)`
+
+This tabe show the total deaths and cases of each contry throughtout the time period. This table allow for commparison between the different countries
 
 
 
