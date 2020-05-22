@@ -1,4 +1,4 @@
-data <- read.csv("../data/google_new.csv", stringsAsFactors = FALSE)
+data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 library(knitr)
 
 

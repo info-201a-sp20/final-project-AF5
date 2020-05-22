@@ -369,14 +369,135 @@ summary {
 </div>
 
 
+<pre class="r"><code>source(&quot;scripts/sumInfo.R&quot;)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>source(&quot;scripts/sumTable.R&quot;)
+data &lt;- read.csv(&quot;data/google_new.csv&quot;, stringsAsFactors = FALSE)
+summary(data)</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">country</th>
+<th align="right">total_death</th>
+<th align="right">total_cases</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Argentina</td>
+<td align="right">348</td>
+<td align="right">12883</td>
+</tr>
+<tr class="even">
+<td align="left">Australia</td>
+<td align="right">327</td>
+<td align="right">62339</td>
+</tr>
+<tr class="odd">
+<td align="left">Brazil</td>
+<td align="right">2830</td>
+<td align="right">82558</td>
+</tr>
+<tr class="even">
+<td align="left">Canada</td>
+<td align="right">1453</td>
+<td align="right">113869</td>
+</tr>
+<tr class="odd">
+<td align="left">France</td>
+<td align="right">52969</td>
+<td align="right">778068</td>
+</tr>
+<tr class="even">
+<td align="left">Germany</td>
+<td align="right">10206</td>
+<td align="right">1038468</td>
+</tr>
+<tr class="odd">
+<td align="left">India</td>
+<td align="right">613</td>
+<td align="right">24051</td>
+</tr>
+<tr class="even">
+<td align="left">Indonesia</td>
+<td align="right">1886</td>
+<td align="right">21789</td>
+</tr>
+<tr class="odd">
+<td align="left">Italy</td>
+<td align="right">189526</td>
+<td align="right">1810174</td>
+</tr>
+<tr class="even">
+<td align="left">Japan</td>
+<td align="right">1181</td>
+<td align="right">42958</td>
+</tr>
+<tr class="odd">
+<td align="left">Mexico</td>
+<td align="right">363</td>
+<td align="right">14607</td>
+</tr>
+<tr class="even">
+<td align="left">Saudi Arabia</td>
+<td align="right">164</td>
+<td align="right">22491</td>
+</tr>
+<tr class="odd">
+<td align="left">South Africa</td>
+<td align="right">51</td>
+<td align="right">17760</td>
+</tr>
+<tr class="even">
+<td align="left">South Korea</td>
+<td align="right">3552</td>
+<td align="right">306162</td>
+</tr>
+<tr class="odd">
+<td align="left">Spain</td>
+<td align="right">110100</td>
+<td align="right">1335857</td>
+</tr>
+<tr class="even">
+<td align="left">Sweden</td>
+<td align="right">2624</td>
+<td align="right">73817</td>
+</tr>
+<tr class="odd">
+<td align="left">Turkey</td>
+<td align="right">3109</td>
+<td align="right">164514</td>
+</tr>
+<tr class="even">
+<td align="left">United Kingdom</td>
+<td align="right">27279</td>
+<td align="right">359243</td>
+</tr>
+<tr class="odd">
+<td align="left">US</td>
+<td align="right">53847</td>
+<td align="right">2460107</td>
+</tr>
+</tbody>
+</table>
 <div id="covid-19-data-analysis" class="section level2">
 <h2>COVID-19 Data Analysis</h2>
 <p>Our domain of interest is the recent outbreak of coronavirus. With this dataset, we analyzed how COVID-19 has impacted countries around the world. This dataset specifically analyzes the frequency of people’s inhabitation of common areas including workplaces, parks, or transit stations over the time of February 23rd, to April 5th, when the most critical amount of outbreak occured.</p>
 </div>
 <div id="quick-data" class="section level2">
 <h2>Quick Data</h2>
-<p>The country that had the most cases during this timeframe was <strong>US</strong> with <strong>2460107</strong> cases. In <strong>US</strong>, the frequency of park visitors on average changed <strong>3.7636744</strong> percent each consecutive day in this period. The country least impacted by the pandemic in this timeframe is <strong>Argentina</strong>, with <strong>12883</strong> cases. In <strong>Argentina</strong>, the frequency of park visitors on average changed only <strong>-42.2775349</strong> percent each consecutive day in this period.</p>
-<p>The country that had the most death during this timeframe was <strong>Italy</strong> with <strong>189526</strong> casualities. In <strong>Italy</strong>, the frequency of park visitors on average changed <strong>-47.853186</strong> percent each consecutive day in this period. The country with the least amount of COVID-19 related deaths this timeframe is <strong>South Africa</strong>, with <strong>51</strong> cases. In <strong>South Africa</strong>, the frequency of park visitors on average changed only <strong>-18.4966047</strong> percent each consecutive day in this period.</p>
+<p>The country that had the most cases during this timeframe was <strong>US</strong> with <strong>2460107</strong> cases. In <strong>US</strong>, the frequency of park visitors on average changed <strong>3.7636744</strong> percent each consecutive day in this period. The country least impacted by the pandemic in this timeframe is <strong>Argentina</strong>, with <strong>12883</strong> cases. In <strong>Argentina</strong>, the frequency of park visitors on average changed <strong>-42.2775349</strong> percent each consecutive day in this period.</p>
+<p>The country that had the most death during this timeframe was <strong>Italy</strong> with <strong>189526</strong> casualities. In <strong>Italy</strong>, the frequency of park visitors on average changed <strong>-47.853186</strong> percent each consecutive day in this period. The country with the least amount of COVID-19 related deaths this timeframe is <strong>South Africa</strong>, with <strong>51</strong> cases. In <strong>South Africa</strong>, the frequency of park visitors on average changed <strong>-18.4966047</strong> percent each consecutive day in this period.</p>
+</div>
+<div id="plot-of-cases-by-country" class="section level2">
+<h2>Plot of cases by country:</h2>
 </div>
 
 

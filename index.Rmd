@@ -7,6 +7,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 source("scripts/sumInfo.R")
+source("scripts/sumTable.R")
+data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 ```
 
 ## COVID-19 Data Analysis
@@ -18,6 +20,13 @@ Our domain of interest is the recent outbreak of coronavirus. With this dataset,
 The country that had the most cases during this timeframe was **`r most_cases_country[1]`** with **`r most_cases_country[2]`** cases. In **`r most_cases_country[1]`**, the frequency of park visitors on average changed **`r most_cases_country$park_avg`** percent each consecutive day in this period. The country least impacted by the pandemic in this timeframe is **`r least_cases_country[1]`**, with **`r least_cases_country[2]`** cases. In **`r least_cases_country[1]`**, the frequency of park visitors on average changed **`r least_cases_country$park_avg`** percent each consecutive day in this period. 
 
 The country that had the most death during this timeframe was **`r most_death_country[1]`** with **`r most_death_country[2]`** casualities. In **`r most_death_country[1]`**, the frequency of park visitors on average changed **`r most_death_country$park_avg`** percent each consecutive day in this period. The country with the least amount of COVID-19 related deaths this timeframe is **`r least_death_country[1]`**, with **`r least_death_country[2]`** cases. In **`r least_death_country[1]`**, the frequency of park visitors on average changed **`r least_death_country$park_avg`** percent each consecutive day in this period.
+
+## Plot of cases by country:
+
+```{r setup, include = TRUE}
+summary(data)
+```
+
 
 
 
