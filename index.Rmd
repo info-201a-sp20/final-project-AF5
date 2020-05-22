@@ -1,0 +1,22 @@
+---
+title: "Midpoint Deliverable"
+author: "John Boyle"
+date: "5/21/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source("scripts/sumInfo.R")
+```
+
+## COVID-19 Data Analysis
+
+Our domain of interest is the recent outbreak of coronavirus. With this dataset, we analyzed how COVID-19 has impacted countries around the world. This dataset specifically analyzes the frequency of people's inhabitation of common areas including workplaces, parks, or transit stations over the time of February 23rd, to April 5th, when the most critical amount of outbreak occured.
+
+## Quick Data
+
+The country most impacted by the pandemic is `r most_cases_country[1]` with `r most_cases_country[2]` cases. In `r most_cases_country[1]`, the workplace on average decreased `r most_cases_country[3]` percent each consecutive day in this period.
+
+
+
+
