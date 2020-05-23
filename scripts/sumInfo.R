@@ -3,7 +3,7 @@ library(dplyr)
 
 most_death_country <- data %>%
   group_by(country) %>%
-  summarise(total_death = sum(fatalities),
+  summarise(total_death = max(fatalities),
             grocery_avg = mean(grocery_pharmacy),
             park_avg = mean(parks),
             residential_avg = mean(residential),
@@ -39,7 +39,7 @@ least_cases_country <- data %>%
 
 least_death_country <- data %>%
   group_by(country) %>%
-  summarise(total_death = sum(fatalities),
+  summarise(total_death = max(fatalities),
             grocery_avg = mean(grocery_pharmacy),
             park_avg = mean(parks),
             residential_avg = mean(residential),
