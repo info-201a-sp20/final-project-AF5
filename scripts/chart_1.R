@@ -31,11 +31,12 @@ chart_3 <- function(data) {
       fill = visits
     )
   ) +
-  geom_point()
+  geom_point() +
+  ggtitle("Tracking Average Human Movement Percentage to Cases")
 
   comparison_plot_done <- ggplotly(comparisons_plot)
 
   return(comparison_plot_done)
 }
 
-chart_3(data)
+
