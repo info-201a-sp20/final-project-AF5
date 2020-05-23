@@ -48,4 +48,3 @@ least_death_country <- data %>%
             workplaces_avg = mean(workplaces)
             ) %>%
   filter(total_death == min(total_death))
-

@@ -21,7 +21,3 @@ chart1 <- function(data) {
   chart <- ggplotly(graph)
   return(chart)
 }
-
-
-
-

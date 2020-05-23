@@ -9,4 +9,3 @@ summary <- function(data) {
     arrange(-Casualties))
   return(table)
 }
-
