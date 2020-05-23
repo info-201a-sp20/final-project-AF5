@@ -24,14 +24,5 @@ chart1 <- function(data) {
 
 chart1(data)
 
-#This chart will visualize the gradual percentage change of people staying home
-#after the outbreak of COVID-19. The ups and downs will be within the timeframe 
-#from Feb 23rd to April 5th of 2020. The percent change was calculated each day.
-#Four countries, US, Spain, Italy, and France, are filtered from the dataset 
-#purposefully because the spread of the virus was most fatal to those countries.
-#This chart is included to find correlation with another chart that depicts the
-#total counts of confirmed cases increasing by each day. It will further help us
-#to seek how change in community mobility and increasing number of confirmed cases
-#are related.
 
 
