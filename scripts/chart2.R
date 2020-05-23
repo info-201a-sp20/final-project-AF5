@@ -11,19 +11,18 @@ chart2 <- function(data) {
   bar_graph <- ggplot(filtered_data, aes(x = date, y = total_cases)) + 
     geom_bar(stat = "identity", color = "orange") +
     theme_grey() +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5),
-          panel.grid.minor = element_blank(),
-          axis.title.x = element_blank()) +
+    theme(axis.title.y = element_blank(),
+          axis.text.x = element_blank(),
+          axis.ticks.x = element_blank()) +
     facet_wrap(~country) +
     labs(title = "Rises in Total Confirmed Cases by days",
-         y = "Total Number of Confirmed Cases") +
+         x = "Feb 23rd, 2020 ~ Apr 5th, 2020") +
     scale_y_continuous(labels = number) 
 
   chart <- ggplotly(bar_graph)
 return(chart)
 }
 
-chart2(data)
 
 
 

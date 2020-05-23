@@ -22,7 +22,6 @@ chart1 <- function(data) {
   return(chart)
 }
 
-chart1(data)
 
 
 
