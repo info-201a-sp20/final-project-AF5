@@ -1,4 +1,4 @@
-data <- read.csv("../data/google_new.csv", stringsAsFactors = FALSE)
+data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 library("ggplot2")
 library("plotly")
 library("scales")
@@ -12,7 +12,7 @@ chart1 <- function(data) {
   graph <- ggplot(filtered_data, aes(x = date, y = residential,
                                      group = country)) +
     geom_line(aes(color = country)) +
-    labs(title = "Change in Community Mobility (Residential)",
+    labs(title = "Change in Population Staying Home",
          y = "Percent Change") +
     theme_grey() +
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5),
@@ -22,7 +22,6 @@ chart1 <- function(data) {
   return(chart)
 }
 
-chart1(data)
 
 
 

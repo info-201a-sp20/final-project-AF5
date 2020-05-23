@@ -30,14 +30,14 @@ The country that had the most death during this timeframe was **`r most_death_co
 This table shows the total deaths and cases of each country throughout the time period. This table allows to compare the statistics between the different countries.
 
 ## Data Chart
-### **Chart1**
+### **Chart 1**
 `r chart1(data)`
 
 This chart will visualize the **gradual percentage change of people staying home after the outbreak of COVID-19.** The ups and downs will be within the timeframe from _Feb 23rd to April 5th of 2020._ The percent change was calculated each day.
 Four countries, **US, Spain, Italy, and France,** are filtered from the dataset purposefully because the spread of the virus was most fatal to those countries.
 This chart is included to find _correlation_ with another chart that depicts the total counts of confirmed cases increasing by each day. It will further help us to seek how change in community mobility and increasing number of confirmed cases are related.
 
-### **Chart2**
+### **Chart 2**
 `r chart2(data)`
 
 <<<<<<< HEAD
