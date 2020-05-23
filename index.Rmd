@@ -8,8 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 source("scripts/sumInfo.R")
 source("scripts/sumTable.R")
-source("chart1.R")
-source("chart2.R")
+source("scripts/chart1.R")
+source("scripts/chart2.R")
 ```
 
 ## COVID-19 Data Analysis
