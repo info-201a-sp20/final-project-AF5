@@ -11,6 +11,7 @@ mobility_chart <- function(data, input_country, input_location) {
                                      group = country)) +
     geom_line(aes(color = country)) +
     labs(title = "Mobility Trend Graph",
+         x= "Dates",
          y = "Percent Change") +
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5),
           panel.grid.minor = element_blank()) +
