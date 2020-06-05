@@ -1,8 +1,12 @@
 library(shiny)
 library(plotly)
 
+<<<<<<< HEAD
 source("scripts/interactive_page_3.R")
 
+=======
+###Page One
+>>>>>>> 63922055aeaaad92a4b753d40f3f981bea12420e
 #Lets the user input a country and a location for the graph
 mobility_sidebar_content <- sidebarPanel(
   selectInput("country",
@@ -52,10 +56,57 @@ mobility_panel <- tabPanel(
     mobility_sidebar_content
   )
 )
+<<<<<<< HEAD
 ui <- navbarPage(
   "Corona Virus (COVID-19)",
   #overViewPage,
   mobility_panel,
   page_3
+=======
+###Page Two
+chart_two_sidepanel <- sidebarPanel(
+  h2("Analysis of Most Impacted:"),
+  #Select cases or deaths widget.
+  selectInput(
+    inputId = "casesOrdeaths",
+    label = h3("Select Imact:"),
+    choices = list("Deaths" = "total_deaths",
+                   "Cases" = "total_cases"),
+    selected = "total_death"
+  ),
+  #Select the timeframe widget.
+  dateInput(
+    inputId = "dateRange",
+    label = h3("Select Time Frame From 2020-02-23, to:"),
+    value = "2020-04-05",
+    min = "2020-02-23",
+    max = "2020-04-05",
+    format = "yyyy-mm-dd"
+  )
+)
+#Print out the world map
+chart_two_mainpanel <- mainPanel(
+  textOutput(
+    outputId = "chart_two_message"
+  ),
+  leafletOutput(
+    outputId = "chart_two_graph"
+  )
+)
+#Combines sidepanel and mainpanel
+page_two <- tabPanel(
+  "Most Impacted",
+  sidebarLayout(
+    chart_two_sidepanel,
+    chart_two_mainpanel
+  )
+)
+
+AF5_ui <- navbarPage(
+  "AF5 - Coronavirus Analysis",
+  #overViewPage,
+  mobility_panel,
+  page_two
+>>>>>>> 63922055aeaaad92a4b753d40f3f981bea12420e
   #takeAwayPage
 )
