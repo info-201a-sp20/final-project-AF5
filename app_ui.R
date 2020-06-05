@@ -50,9 +50,13 @@ mobility_panel <- tabPanel(
     mobility_sidebar_content
   )
 )
-AF5_ui <- navbarPage(
-  "Corona Virus (COVID-19)",
-  #overViewPage,
-  mobility_panel
-  #takeAwayPage
+AF5_ui <- fluidPage(
+  includeCSS("style.css"),
+  navbarPage(
+    "Corona Virus (COVID-19)",
+    overViewPage,
+    mobility_panel
+    #takeAwayPage
+  )
+
 )
