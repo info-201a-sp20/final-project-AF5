@@ -1,7 +1,12 @@
 library(shiny)
 library(plotly)
 
+
+source("scripts/interactive_page_3.R")
+
+
 ###Page One
+
 #Lets the user input a country and a location for the graph
 mobility_sidebar_content <- sidebarPanel(
   selectInput("country",
@@ -92,13 +97,16 @@ page_two <- tabPanel(
   )
 )
 
-AF5_ui <- fluidPage(
+
+ui <- fluidPage(
   includeCSS("style.css"),
   navbarPage(
     "AF5 - Coronavirus Analysis",
     overViewPage,
     mobility_panel,
+    page_3,
     page_two
     #takeAwayPage
   )
 )
+

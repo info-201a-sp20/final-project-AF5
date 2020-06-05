@@ -5,16 +5,25 @@ library(plotly)
 library(stringr)
 
 source("scripts/mobility_chart.R")
+source("scripts/interactive_page_3.R")
 
 data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 countryCoord <- read.csv("data/countryCoord.csv", stringsAsFactors = FALSE)
 data_with_coord <- merge(data, countryCoord, by = "country", all.x = TRUE)
 
-AF5_server <- function(input, output) {
+server <- function(input, output) {
   #Page 1
   output$mobility_change <- renderPlotly({
     return(mobility_chart(data, input$country, input$location))
   })
+
+  # Interactive scatter plot
+  output$scatter <- renderPlotly({
+    return(chart_3(data, input$country))
+  })
+#}
+
+
   #Page 2
   output$chart_two_graph <- renderLeaflet({
     factor <- 1
