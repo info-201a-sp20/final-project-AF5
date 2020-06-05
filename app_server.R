@@ -16,14 +16,14 @@ AF5_server <- function(input, output) {
   output$mobility_change <- renderPlotly({
     return(mobility_chart(data, input$country, input$location))
   })
-<<<<<<< HEAD
+
   # Interactive scatter plot
   output$scatter <- renderPlotly({
     return(chart_3(data, input$country))
   })
 }
 
-=======
+
   #Page 2
   output$chart_two_graph <- renderLeaflet({
     factor <- 1

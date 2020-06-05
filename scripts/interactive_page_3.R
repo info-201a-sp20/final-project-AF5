@@ -36,7 +36,7 @@ chart_3 <- function(data, country_input) {
     )
   ) +
     geom_point() +
-    ggtitle("Average Human Movement Percentage to Cases")
+    ggtitle("Avg Movement Percentage to Cases")
   
   comparison_plot_done <- ggplotly(comparisons_plot)
   
