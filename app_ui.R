@@ -36,12 +36,8 @@ mobility_sidebar_content <- sidebarPanel(
               choices = list("Parks" = "parks",
                              "Grocery stores / Pharmacies" = "grocery_pharmacy",
                              "Staying Home" = "residential",
-                             "Retail / Recreational Stores" =
-<<<<<<< HEAD
-                               "retail_recreation",
-=======
+                             "Retail / Recreational Stores",
                              "retail_recreation",
->>>>>>> d6305ca2702e08a68304bb28da1fd42bfcd89d25
                              "Transit Stations" = "transit_stations",
                              "Workplaces" = "workplaces"),
               selected = "residential")
@@ -85,7 +81,7 @@ chart_two_sidepanel <- sidebarPanel(
 )
 #Print out the world map
 chart_two_mainpanel <- mainPanel(
-  h4("This graph attemptes to understand the timeline
+  p("This graph attempts to understand the timeline
      of the spread of COVID-19 in this critical timeframe.
      We can try to answer where it began,
      and where it spread to chronologically."),

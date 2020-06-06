@@ -60,7 +60,7 @@ server <- function(input, output) {
       summarize(total_deaths = max(fatalities), total_cases = max(total_cases), lat = max(latitude), long = max(longitude)) %>%
       select(country, total_deaths, total_cases, lat, long)
     
-    msg <- paste0("This is a geographical graph showing most impacted countries based on ",
+    msg <- paste0("This shows the most impacted countries based on ",
                   str_remove(input$casesOrdeaths, "total_"),
                   ". The most impacted country in the selected timeframe is ",
                   map_data[map_data[[input$casesOrdeaths]] ==
