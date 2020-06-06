@@ -6,6 +6,8 @@ library(stringr)
 
 source("scripts/mobility_chart.R")
 source("scripts/interactive_page_3.R")
+source("scripts/overViewPage.R")
+source("scripts/takeAwayPage.R")
 
 data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 countryCoord <- read.csv("data/countryCoord.csv", stringsAsFactors = FALSE)

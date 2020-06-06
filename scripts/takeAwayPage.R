@@ -1,3 +1,7 @@
+source("scripts/mobility_chart.R")
+data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
+
+
 takeAwayPage <- tabPanel(
   "Take Aways",
   fluidPage(
@@ -13,6 +17,8 @@ takeAwayPage <- tabPanel(
       "much closer to China which resulted them to react quicker in response to",
       "the virus compared to western countries such as the U.S., because they",
       "were affected by the virus earlier than the U.S."),
+    renderPlotly(mobility_chart(data, "South Korea", "residential")),
+    renderPlotly(mobility_chart(data, "US", "residential")),
     h2("2nd take away"),
     p("something soemthing..."),
     h3("3rd take away")
