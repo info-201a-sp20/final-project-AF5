@@ -36,7 +36,8 @@ mobility_sidebar_content <- sidebarPanel(
               choices = list("Parks" = "parks",
                              "Grocery stores / Pharmacies" = "grocery_pharmacy",
                              "Staying Home" = "residential",
-                             "Retail / Recreational Stores" = "retail_recreation",
+                             "Retail / Recreational Stores" =
+                             "retail_recreation",
                              "Transit Stations" = "transit_stations",
                              "Workplaces" = "workplaces"),
               selected = "residential")
@@ -97,21 +98,14 @@ page_two <- tabPanel(
   )
 )
 
-page_3 <- tabPanel(
-  "Scatter Plot",
-  titlePanel("Average movement percentage to Cases"),
-  sidebarLayout(country_search_sidebar, scatterplot_main)
-)
-
 ui <- fluidPage(
   includeCSS("style.css"),
   navbarPage(
     "AF5 - Coronavirus Analysis",
-    overViewPage,
+    overview_page,
     mobility_panel,
     page_two,
     page_3,
-    takeAwayPage
+    take_away_page
   )
 )
-
