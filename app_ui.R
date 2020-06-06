@@ -37,7 +37,11 @@ mobility_sidebar_content <- sidebarPanel(
                              "Grocery stores / Pharmacies" = "grocery_pharmacy",
                              "Staying Home" = "residential",
                              "Retail / Recreational Stores" =
+<<<<<<< HEAD
                                "retail_recreation",
+=======
+                             "retail_recreation",
+>>>>>>> d6305ca2702e08a68304bb28da1fd42bfcd89d25
                              "Transit Stations" = "transit_stations",
                              "Workplaces" = "workplaces"),
               selected = "residential")
@@ -102,12 +106,6 @@ page_two <- tabPanel(
   )
 )
 
-page_3 <- tabPanel(
-  "Scatter Plot",
-  titlePanel("Average movement percentage to Cases"),
-  sidebarLayout(country_search_sidebar, scatterplot_main)
-)
-
 ui <- fluidPage(
   includeCSS("style.css"),
   navbarPage(
@@ -119,4 +117,3 @@ ui <- fluidPage(
     take_away_page
   )
 )
-

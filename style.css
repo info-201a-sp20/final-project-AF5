@@ -1,5 +1,23 @@
 form > img {
-  width: 200px;
-  height: 200px;
+  width: 215px;
+  height: 215px;
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: white;
+}
+
+p, #chart_two_message {
+  color: white;
+}
+
+body {
+  background-color: gray;
+}
+
+form > h2 {
+  text-align: center;
+  color: black;
 }
 
