@@ -8,6 +8,10 @@ h1, h2 {
   color: white;
 }
 
+h4 {
+  color: white;
+}
+
 p, #chart_two_message {
   color: white;
 }
@@ -24,6 +28,6 @@ form > h2 {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
