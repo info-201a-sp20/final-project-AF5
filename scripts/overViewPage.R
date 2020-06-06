@@ -3,15 +3,17 @@ overview_page <- tabPanel(
   "Overview",
   sidebarPanel(
     h2("Covid-19"),
-    img(alt = "Covid-19", src = 
-          "https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg")
+    img(
+      alt = "Covid-19", src =
+        "https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg"
+    )
   ),
   mainPanel(
     h1("Overview"),
     p(
       "Our domain of interest is the recent outbreak of coronavirus.",
       "With this interest in mind, we want to analyzed how COVID-19 has
-      impacted", 
+      impacted",
       " different countries around the world.",
       "We look for data that will specifically analyzes the frequency",
       "of people's inhabitation of common areas including workplaces, parks,",
@@ -38,7 +40,6 @@ overview_page <- tabPanel(
       "we also will be using a dataset with information about peoples changes
       in tavel",
       "in different countries"
-      )
+    )
   )
 )
-
