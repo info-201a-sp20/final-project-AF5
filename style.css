@@ -3,9 +3,3 @@ form > img {
   height: 200px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
