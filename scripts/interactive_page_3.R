@@ -7,6 +7,7 @@ library("shiny")
 
 data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 
+# Function that returns the interactive scatter plot 
 chart_3 <- function(data, country_input) {
   activity <- data %>%
     group_by(country) %>%
