@@ -2,11 +2,13 @@
 overview_page <- tabPanel(
   "Overview",
   sidebarPanel(
-    h2("Covid-19"),
-    img(
-      alt = "Covid-19", src =
-        "https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg"
-    )
+    div( id = "corona",
+      h2("Covid-19"),
+      img(
+        alt = "Covid-19", src =
+          "https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg"
+      )
+    ),
   ),
   mainPanel(
     h1("Overview"),
