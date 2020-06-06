@@ -2,16 +2,20 @@
 overview_page <- tabPanel(
   "Overview",
   sidebarPanel(
-    h2("Covid-19"),
-    img(alt = "Covid-19", src = 
-          "https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg")
+    div( id = "corona",
+      h2("Covid-19"),
+      img(
+        alt = "Covid-19", src =
+          "https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg"
+      )
+    ),
   ),
   mainPanel(
     h1("Overview"),
     p(
       "Our domain of interest is the recent outbreak of coronavirus.",
       "With this interest in mind, we want to analyzed how COVID-19 has
-      impacted", 
+      impacted",
       " different countries around the world.",
       "We look for data that will specifically analyzes the frequency",
       "of people's inhabitation of common areas including workplaces, parks,",
@@ -21,7 +25,7 @@ overview_page <- tabPanel(
     h2("Major Question"),
     p("How many cases and deaths have the Corona virus caused?"),
     p("Which country are the most infected?"),
-    p("which country have the most deaths due to the virus?"),
+    p("Which country have the most deaths due to the virus?"),
     p("How did the mobility rate to different location change
       after the outbreak?"),
     p("How much did people travel during this time?"),
@@ -37,8 +41,7 @@ overview_page <- tabPanel(
       "number of cases that happen",
       "we also will be using a dataset with information about peoples changes
       in tavel",
-      "in different countries"
-      )
+      "in different countries."
+    )
   )
 )
-
