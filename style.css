@@ -8,6 +8,10 @@ h1, h2 {
   color: white;
 }
 
+h4 {
+  color: white;
+}
+
 p, #chart_two_message {
   color: white;
 }

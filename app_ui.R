@@ -37,11 +37,7 @@ mobility_sidebar_content <- sidebarPanel(
                              "Grocery stores / Pharmacies" = "grocery_pharmacy",
                              "Staying Home" = "residential",
                              "Retail / Recreational Stores" =
-<<<<<<< HEAD
-                               "retail_recreation",
-=======
                              "retail_recreation",
->>>>>>> d6305ca2702e08a68304bb28da1fd42bfcd89d25
                              "Transit Stations" = "transit_stations",
                              "Workplaces" = "workplaces"),
               selected = "residential")
