@@ -11,7 +11,7 @@ data <- read.csv("data/google_new.csv", stringsAsFactors = FALSE)
 countryCoord <- read.csv("data/countryCoord.csv", stringsAsFactors = FALSE)
 data_with_coord <- merge(data, countryCoord, by = "country", all.x = TRUE)
 
-AF5_server <- function(input, output) {
+server <- function(input, output) {
   #Page 1
   output$mobility_change <- renderPlotly({
     return(mobility_chart(data, input$country, input$location))
@@ -19,10 +19,9 @@ AF5_server <- function(input, output) {
 
   # Interactive scatter plot
   output$scatter <- renderPlotly({
-    return(chart_3(data, input$country))
+    return(chart_3(data, input$country_select))
   })
-}
-
+#}
 
   #Page 2
   output$chart_two_graph <- renderLeaflet({
@@ -74,4 +73,3 @@ AF5_server <- function(input, output) {
     return(msg)
   })
 }
->>>>>>> 63922055aeaaad92a4b753d40f3f981bea12420e

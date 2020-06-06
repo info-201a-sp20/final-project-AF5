@@ -46,7 +46,7 @@ chart_3 <- function(data, country_input) {
 
 # Creating personal UI sidebar panel for scatterplot
 country_search_sidebar <- sidebarPanel(
-  selectInput("country",
+  selectInput("country_select",
               label = "Country",
               choices = list("Argentina" = "Argentina",
                              "Australia" = "Australia",
@@ -76,11 +76,11 @@ scatterplot_main <- mainPanel(
 )
 
 # Creating tab 3 by combining main and sidebar panels 
-page_3 <- tabPanel(
-  "Scatter Plot",
-  titlePanel("Average movement percentage to Cases"),
-  sidebarLayout(country_search_sidebar, scatterplot_main)
-)
+#page_3 <- tabPanel(
+#  "Scatter Plot",
+#  titlePanel("Average movement percentage to Cases"),
+#  sidebarLayout(country_search_sidebar, scatterplot_main)
+#)
 
 
 

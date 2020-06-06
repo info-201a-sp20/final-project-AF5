@@ -1,12 +1,12 @@
 library(shiny)
 library(plotly)
 
-<<<<<<< HEAD
+
 source("scripts/interactive_page_3.R")
 
-=======
+
 ###Page One
->>>>>>> 63922055aeaaad92a4b753d40f3f981bea12420e
+
 #Lets the user input a country and a location for the graph
 mobility_sidebar_content <- sidebarPanel(
   selectInput("country",
@@ -56,13 +56,7 @@ mobility_panel <- tabPanel(
     mobility_sidebar_content
   )
 )
-<<<<<<< HEAD
-ui <- navbarPage(
-  "Corona Virus (COVID-19)",
-  #overViewPage,
-  mobility_panel,
-  page_3
-=======
+
 ###Page Two
 chart_two_sidepanel <- sidebarPanel(
   h2("Analysis of Most Impacted:"),
@@ -93,6 +87,7 @@ chart_two_mainpanel <- mainPanel(
     outputId = "chart_two_graph"
   )
 )
+
 #Combines sidepanel and mainpanel
 page_two <- tabPanel(
   "Most Impacted",
@@ -102,11 +97,21 @@ page_two <- tabPanel(
   )
 )
 
-AF5_ui <- navbarPage(
-  "AF5 - Coronavirus Analysis",
-  #overViewPage,
-  mobility_panel,
-  page_two
->>>>>>> 63922055aeaaad92a4b753d40f3f981bea12420e
-  #takeAwayPage
+page_3 <- tabPanel(
+  "Scatter Plot",
+  titlePanel("Average movement percentage to Cases"),
+  sidebarLayout(country_search_sidebar, scatterplot_main)
 )
+
+ui <- fluidPage(
+  includeCSS("style.css"),
+  navbarPage(
+    "AF5 - Coronavirus Analysis",
+    overViewPage,
+    mobility_panel,
+    page_two,
+    page_3,
+    takeAwayPage
+  )
+)
+
