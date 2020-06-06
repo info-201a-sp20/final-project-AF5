@@ -4,17 +4,21 @@ take_away_page <- tabPanel(
     h1("Takeaways:"),
     h2("1st take away"),
     p(
-      "All the countries have responded differently to the virus,",
+      "All the countries have responded at different rates to the virus,",
       "and the change of the mobility trend resulted accordingly.",
       "A trend that we saw is that countries that were hit the hardest,",
       "like the U.S., Italy, and Spain, responded the latest in terms of ",
       "changing their habits (i.e. staying home) versus countries that were",
       "doing better off (i.e. South Korea) responded quicker in comparison.",
+      "The graph starts at Feburary 23rd of 2020 with the U.S. stay at home",
+      "rate of -0.823% while South Korea's stay at home rate was 8.347%.",
+      "This shows that citizens of South Korea were quicker to respond to",
+      "the virus which resulted in slowing down the spread.",
       "This may be due to the geographic locations of countries in proximity",
       "with China, where the virus originated. For instance, South Korea is",
       "much closer to China which resulted them to react quicker in response",
       "to the virus compared to western countries such as the U.S., because",
-      "theywere affected by the virus earlier than the U.S."
+      "they were affected by the virus earlier than the U.S."
       ),
     h2("2nd take away"),
     p(

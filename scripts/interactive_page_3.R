@@ -69,6 +69,11 @@ country_search_sidebar <- sidebarPanel(
 
 # Creating personal UI main panel for scatter plot
 scatterplot_main <- mainPanel(
+  p("This is a scatterplot that shows the average human movement
+    to various public places by country from the timeframe
+    2/23/2020 - 4/05/2020. If the average is negative,
+    then there is an overall decrease in visit of a particular
+    location of the country selected, and vice versa."),
   plotlyOutput("scatter")
 )
 
