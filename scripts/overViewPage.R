@@ -1,5 +1,5 @@
 
-overViewPage <- tabPanel(
+overview_page <- tabPanel(
   "Over View",
   sidebarPanel(
     h2("Covid-19"),
