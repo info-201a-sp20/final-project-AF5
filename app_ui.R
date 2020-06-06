@@ -36,7 +36,8 @@ mobility_sidebar_content <- sidebarPanel(
               choices = list("Parks" = "parks",
                              "Grocery stores / Pharmacies" = "grocery_pharmacy",
                              "Staying Home" = "residential",
-                             "Retail / Recreational Stores" = "retail_recreation",
+                             "Retail / Recreational Stores",
+                             "retail_recreation",
                              "Transit Stations" = "transit_stations",
                              "Workplaces" = "workplaces"),
               selected = "residential")
@@ -80,6 +81,10 @@ chart_two_sidepanel <- sidebarPanel(
 )
 #Print out the world map
 chart_two_mainpanel <- mainPanel(
+  p("This graph attempts to understand the timeline
+     of the spread of COVID-19 in this critical timeframe.
+     We can try to answer where it began,
+     and where it spread to chronologically."),
   textOutput(
     outputId = "chart_two_message"
   ),
@@ -97,21 +102,14 @@ page_two <- tabPanel(
   )
 )
 
-page_3 <- tabPanel(
-  "Scatter Plot",
-  titlePanel("Average movement percentage to Cases"),
-  sidebarLayout(country_search_sidebar, scatterplot_main)
-)
-
 ui <- fluidPage(
   includeCSS("style.css"),
   navbarPage(
     "AF5 - Coronavirus Analysis",
-    overViewPage,
+    overview_page,
     mobility_panel,
     page_two,
     page_3,
-    takeAwayPage
+    take_away_page
   )
 )
-

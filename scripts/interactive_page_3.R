@@ -17,14 +17,12 @@ chart_3 <- function(data, country_input) {
       retail_visit = mean(retail_recreation),
       transit_visit = mean(transit_stations),
       work_visit = mean(workplaces)
-      #cases = sum(total_cases)
     )
   new_activity_done <- gather(
     activity,
     key = visits,
     value = percentages,
     -country
-    #-cases
   )
   comparisons_plot <- ggplot(
     data = new_activity_done,
@@ -32,7 +30,6 @@ chart_3 <- function(data, country_input) {
       x = visits,
       y = percentages,
       color = country
-      #fill = visits
     )
   ) +
     geom_point() +
@@ -72,15 +69,20 @@ country_search_sidebar <- sidebarPanel(
 
 # Creating personal UI main panel for scatter plot
 scatterplot_main <- mainPanel(
+  p("This is a scatterplot that shows the average human movement
+    to various public places by country from the timeframe
+    2/23/2020 - 4/05/2020. If the average is negative,
+    then there is an overall decrease in visit of a particular
+    location of the country selected, and vice versa."),
   plotlyOutput("scatter")
 )
 
 # Creating tab 3 by combining main and sidebar panels 
-#page_3 <- tabPanel(
-#  "Scatter Plot",
-#  titlePanel("Average movement percentage to Cases"),
-#  sidebarLayout(country_search_sidebar, scatterplot_main)
-#)
+page_3 <- tabPanel(
+  "Scatter Plot",
+  titlePanel("Average movement percentage to Cases"),
+  sidebarLayout(country_search_sidebar, scatterplot_main)
+)
 
 
 
