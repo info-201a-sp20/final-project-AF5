@@ -9,7 +9,7 @@ take_away_page <- tabPanel(
   "Takeaways",
   fluidPage(
     h1("Takeaways:"),
-    h2("1st take away"),
+    h2("1st Takeaway"),
     p(
       "All the countries have responded at different rates to the virus,",
       "and the change of the mobility trend resulted accordingly.",
@@ -25,13 +25,13 @@ take_away_page <- tabPanel(
       "with China, where the virus originated. For instance, South Korea is",
       "much closer to China which resulted them to react quicker in response to",
       "the virus compared to western countries such as the U.S., because they",
-      "were affected by the virus earlier than the U.S."),
+      "were affected by the virus earlier than the U.S.",
       "much closer to China which resulted them to react quicker in response",
       "to the virus compared to western countries such as the U.S., because",
       "they were affected by the virus earlier than the U.S."
       ),
 
-    h2("2nd take away"),
+    h2("2nd Takeaway"),
     p(
     "From the most impacted page's map, we can see which countries were",
     "most impacted at which point in this critical time period. Using",
@@ -57,7 +57,7 @@ take_away_page <- tabPanel(
     "timeframe."
     ),
   
-    h2("3rd take away"),
+    h2("3rd Takeaway"),
     p(
       "Countries have responded differently to the coronavirus from",
       "2/23 - 4/05, and the average human movement to public places",
@@ -79,4 +79,5 @@ take_away_page <- tabPanel(
       "get to work."
     )
   )
+)
 )

@@ -23,7 +23,7 @@ overview_page <- tabPanel(
     p("Which country are the most infected?"),
     p("which country have the most deaths due to the virus?"),
     p("How did the mobility rate to different location change
-      after the outbreak"),
+      after the outbreak?"),
     p("How much did people travel during this time?"),
     p("On average, how has human movement percentages to various
       public places changed between different countries from 2/23/2020
